@@ -12,16 +12,16 @@ main {
 
 header {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 55%;
+  align-items: center;
+  justify-content: space-around;
+
 }
 
 .hero-div {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  width: 55%;
+  justify-content: space-evenly;
+
 }
 
 .hero-img {
@@ -30,7 +30,7 @@ header {
 
 .square-container {
   display: flex;
-  width: 55%;
+
   flex-direction: row;
   justify-content: space-evenly;
 }
