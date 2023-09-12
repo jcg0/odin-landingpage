@@ -17,29 +17,64 @@ header {
 
 }
 
-.hero-div {
+.hero-container {
   display: flex;
-  flex-direction: row;
+  align-items: center;
   justify-content: space-evenly;
+  margin: 0 19.5vw;
+}
 
+.hero-content {
+  margin-right: 20vw;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight:800;
+  /* color: #f9faf8; */
+}
+
+.hero-text {
+  font-size: 18px;
+  margin-right: 4vw;
+  /* color: #e5e7eb; */
 }
 
 .hero-img {
   background-image: url('https://fakeimg.pl/400x200')
 }
 
+.info-container {
+  margin: 0 19.5vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
 .square-container {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 
-  flex-direction: row;
-  justify-content: space-evenly;
+h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .square {
-  height: 100px;
-  width: 100px;
+  height: 150px;
+  width: 150px;
   border: 2px solid blue;
   border-radius: 10px;
-  margin: auto;
-  
+  margin: 0 25px;
+  text-align: center;
+}
+
+.square-p {
+  width: 7vw;
+  margin: auto
 }
