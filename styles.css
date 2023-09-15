@@ -93,3 +93,28 @@ h3 {
   justify-content: center;
   width: 122vw;
 }
+
+.signup-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-container {
+  border: solid 2px blue;
+  border-radius: 10px;
+  width: 1000px;
+  height: 125px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+footer {
+  background-color: #1F2937;
+  height: 65px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
